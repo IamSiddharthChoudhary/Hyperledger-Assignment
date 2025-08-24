@@ -4,39 +4,6 @@
 
 This project implements a complete Hyperledger Fabric network with an Asset Transfer System featuring Attribute-Based Access Control (ABAC). The implementation includes a smart contract (chaincode), REST API, and comprehensive testing suite.
 
-```
-fabric-assignment/
-├── network/
-│   ├── crypto-config.yaml          # Crypto material configuration
-│   ├── configtx.yaml              # Channel configuration
-│   ├── connection-org1.json       # Fabric SDK connection profile
-│   ├── crypto-config/             # Generated cryptographic materials
-│   ├── channel-artifacts/         # Channel configuration files
-│   └── docker/                    # Docker compose files
-│       ├── docker-compose-ca.yaml
-│       ├── docker-compose-network.yaml
-│       └── peer-base.yaml
-├── chaincode/
-│   └── asset-transfer/
-│       ├── asset-transfer.go      # Main chaincode with ABAC
-│       ├── go.mod
-│       └── go.sum
-├── api/
-│   ├── app.js                     # REST API server
-│   ├── package.json               # Node.js dependencies
-│   ├── enrollAdmin.js             # Admin enrollment script
-│   └── registerUser.js            # User registration script
-├── scripts/
-│   ├── setup.sh                   # Complete setup automation
-│   ├── network.sh                 # Network management
-│   ├── deploy-chaincode.sh        # Chaincode deployment
-│   └── test-api.sh               # API testing script
-├── wallet/                        # User identities wallet
-└── README.md                      # This file
-```
-
-## Features Implemented
-
 ### ✅ Network Components
 
 - **2 Organizations** (Org1, Org2)
