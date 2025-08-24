@@ -1,4 +1,4 @@
-# Hyperledger Fabric Assignment - Complete Implementation
+# Hyperledger Fabric Assignment
 
 ## Overview
 
