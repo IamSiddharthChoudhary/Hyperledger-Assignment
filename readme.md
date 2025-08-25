@@ -204,36 +204,6 @@ chmod +x scripts/test-api.sh
 | Auditor | ❌            | ✅              | ✅              | ✅                | ❌               | ❌            |
 | User    | ❌            | ❌              | ✅              | ✅                | ❌               | ❌            |
 
-## Network Management
-
-### Start Network
-
-```bash
-./scripts/network.sh up
-```
-
-### Stop Network
-
-```bash
-./scripts/network.sh down
-```
-
-### Clean Everything
-
-```bash
-./scripts/network.sh clean
-# or
-./scripts/setup.sh clean
-```
-
-### Verify Network Status
-
-```bash
-./scripts/network.sh verify
-```
-
-## Troubleshooting
-
 ### Common Issues
 
 1. **"configtxgen: command not found"**
@@ -314,11 +284,3 @@ For production deployment, consider:
 - ✅ Complete automation scripts
 - ✅ Comprehensive testing suite
 - ✅ Documentation and usage examples
-
-## License
-
-This project is for educational purposes as part of a Hyperledger Fabric assignment.
-
----
-
-**Note**: This implementation demonstrates enterprise blockchain concepts and should be adapted for specific production requirements.
