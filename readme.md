@@ -204,28 +204,6 @@ chmod +x scripts/test-api.sh
 | Auditor | ❌            | ✅              | ✅              | ✅                | ❌               | ❌            |
 | User    | ❌            | ❌              | ✅              | ✅                | ❌               | ❌            |
 
-### Common Issues
-
-1. **"configtxgen: command not found"**
-
-   - Install Hyperledger Fabric binaries
-   - Add to PATH: `export PATH=/path/to/fabric/bin:$PATH`
-
-2. **"ABAC access denied"**
-
-   - Check user role attributes in certificates
-   - Ensure proper user enrollment with correct attributes
-
-3. **"Network connection refused"**
-
-   - Verify all containers are running: `docker ps`
-   - Check container logs: `docker logs <container-name>`
-
-4. **"API connection error"**
-   - Ensure network is running
-   - Check connection profile certificates
-   - Verify wallet contains user identities
-
 ### Logs
 
 ```bash
